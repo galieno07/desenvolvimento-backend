@@ -1,5 +1,4 @@
-
-import com.example.ex02.IlhaDeCalor;
+package com.example.ex02;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +29,7 @@ public class IlhaPrincipal {
 	@PostMapping
 		public String adicionarIlhaDeCalor(IlhaDeCalor ilha) {
         ilhadecalor.add(ilha);
-        return ("Ilha de calor " + ilha.getBairro() + " ta maruoc adicionada com sucesso!");
+        return ("Ilha de calor " + ilha.getBairro() + " adicionada com sucesso!");
 		}	
 		
 	public static void main(String[] args) {
